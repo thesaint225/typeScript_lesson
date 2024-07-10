@@ -3,7 +3,7 @@ function addTwo(num: number): number {
   // return "hello";
 }
 
-function getUpper(val: string) {
+function getUpper(val: string): string {
   return val.toUpperCase();
 }
 
