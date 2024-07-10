@@ -5,7 +5,7 @@ console.log(greetings);
 
 //  number
 
-let userId: number = 4546564;
+let userId = 4546564;
 
 // boolean
 
