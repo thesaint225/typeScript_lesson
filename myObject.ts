@@ -30,33 +30,33 @@
 
 // keyword, questionmark
 
-type User = {
-  readonly _id: string;
-  name: string;
-  email: string;
-  isActive: boolean;
-  creditCard?: number;
-};
+// type User = {
+//   readonly _id: string;
+//   name: string;
+//   email: string;
+//   isActive: boolean;
+//   creditCard?: number;
+// };
 
-let myUser: User = {
-  _id: "12343",
-  name: "henri",
-  email: "miessanhenri@gmail.com",
-  isActive: false,
-};
+// let myUser: User = {
+//   _id: "12343",
+//   name: "henri",
+//   email: "miessanhenri@gmail.com",
+//   isActive: false,
+// };
 
-myUser.email = "henri@gmail.com";
+// myUser.email = "henri@gmail.com";
 
-type cardNumber = {
-  cardnumber: string;
-};
+// type cardNumber = {
+//   cardnumber: string;
+// };
 
-type cardDate = {
-  cardDate: string;
-};
+// type cardDate = {
+//   cardDate: string;
+// };
 
-type cardDetails = cardNumber &
-  cardDate &
-  cardDate & {
-    cvv: number;
-  };
+// type cardDetails = cardNumber &
+//   cardDate &
+//   cardDate & {
+//     cvv: number;
+//   };
