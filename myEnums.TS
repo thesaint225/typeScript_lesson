@@ -1,6 +1,6 @@
 enum SeatChoice {
-  AISILE,
-  MIDDLE,
-  WINDOW,
-  FOURTH,
+  AISILE = "Aisile",
+  MIDDLE="middle",
+  WINDOW="window",
+  FOURTH=34,
 }
